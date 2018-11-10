@@ -1,0 +1,78 @@
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+#navtool{
+    background-color: #4aaaa5;
+}
+
+.nav-text {
+    color: white;
+    padding: 10px 2px 0px 22px;
+    text-align: center;
+}
+
+.nav-text:hover {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    position: relative;
+    margin-right: 0;
+    left: 850px;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 300px;
+    background-color: #4aaaa5;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#whitetext {
+    color: white;
+}
+
+.card.text-center {
+    border: 0;
+    background-color: #4aaaa5;
+}
+
+li {
+    margin-right: 0;
+}
+
+.container {
+    width: 960px;
+    width: fit-content;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+
+@media (max-width: 960px){
+}
+
+@media (max-width: 700px) {
+    #whitetext {
+        color: red;
+    }
+}
+
+.footer {
+    bottom: 0;
+    position: sticky;
+}
+
+#footertext {
+    font-size: 25px;
+    margin-bottom: 0;
+    color: white;
+}
